@@ -73,13 +73,15 @@
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
               Hi! My name is Jacob Rushlow, I am a front end web developer and UI designer with a fair amount of
-              experience
-              building responsive web apps.
+              personal and profesional experience
+              building responsive web apps for both my own projects, and freelance clients.
             </p>
             <p class="about-wrapper__info-text">
-              I am rather fluent in languages like html, css, and javascript as well as frameworks like React and I
-              can
-              learn absolutely anything I need to learn for a project.
+              I am fluent in languages like html, css, and javascript as well as frameworks like React and version
+              contol systems like git.
+            </p>
+            <p class="about-wrapper__info-text">
+              I am very capable of learning anything neccasary for a new project.
             </p>
             <span class="d-flex mt-3">
               <a target="_blank" class="cta-btn cta-btn--resume" href="#projects">
@@ -98,7 +100,7 @@
     <div class="container">
       <div class="project-wrapper">
         <h2 class="section-title dark-blue-text">
-          Projects
+          Personal Projects
         </h2>
 
         <!-- Each .row is a project -->
@@ -139,13 +141,47 @@
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Collect the Rings</h3>
+              <div>
+                <p class="mb-4">
+                  This is a simple game I made using vanilla javascript, html, and css. It takes heavy inspiration from
+                  the classic snake game while being completely different. The goal is to collect as many rings as you
+                  can as quickly as possible while avoiding both the edges of the game board and the red dots. It saves
+                  the
+                  users high score using the browsers local storage. This is the only personal project on my portfolio
+                  that is not mobile friendly
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://jovial-pike-6e6ef8.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/gheezl/snake-game">
+                See Repository
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/collect-the-rings.gif" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Space X Wiki</h3>
               <div>
                 <p class="mb-4">
-                  This project is very simple, all it does is display some data I got off of a space X related
+                  This project is very simple, all it does is display some data I got off of a public space X
                   graphql api I found. The main reason I decided to make this project was mostly just to demonstrate
-                  that ik how to communicate with databases that don't follow the traditional REST format. The project
-                  uses Apollo to cache the api calls, and Redux to store any local state.
+                  that ik how to communicate with a database that doesn't follow the traditional REST format.
                 </p>
               </div>
               <a target="_blank" class="cta-btn cta-btn--hero" href="https://nifty-sinoussi-80d3fa.netlify.app/">
@@ -168,25 +204,40 @@
         </div>
         <!-- /END Project -->
 
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Freelance Projects
+        </h2>
+
         <!-- Each .row is a project -->
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Corium Leather Works</h3>
               <div>
                 <p class="mb-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Excepturi neque, ipsa animi maiores repellendus distinctio
-                  aperiam earum dolor voluptatum consequatur blanditiis
-                  inventore debitis fuga numquam voluptate ex architecto
-                  itaque molestiae. ddd
+                  This is just a simple landing page I made for a client a while back. He told me he was going to start
+                  a leather works ecommerce store on amazon and I offered to build him a landing page that would link to
+                  his products. The site isn't completely done yet, it still needs a few more additions (like the links
+                  themselves), but the site is fully opperational and running. He was entirely okay with me showing it
+                  in my portfolio.
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://pokedex-webapp.herokuapp.com/">
                 See Live
               </a>
-              <a target="_blank" class="cta-btn text-color-main" href="#!">
-                Source Code
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/gheezl/pokedex-app">
+                See Repository
               </a>
             </div>
           </div>
@@ -194,13 +245,15 @@
             <div class="project-wrapper__image">
               <a href="#!" target="_blank">
                 <div data-tilt class="thumbnail rounded">
-                  <img class="img-fluid" src="./assets/project.jpg" />
+                  <img class="img-fluid" src="./assets/pokedex3.gif">
                 </div>
               </a>
             </div>
           </div>
         </div>
         <!-- /END Project -->
+
+
       </div>
     </div>
   </section>
